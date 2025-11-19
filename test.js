@@ -1,18 +1,18 @@
 // main.js
-const number1 = document.querySelector('h1');
-const plusButton1 = document.querySelector('button');
+const number = document.querySelector('h1');
+const plusButton = document.querySelector('#plus');
+const minusButton = document.querySelector('#minus');
 
 let count = 0;
 
-plusButton1.addEventListener('click',function() {
+plusButton.addEventListener('click',function() {
     count ++;
-    number1.innerHTML = count;
+    number.innerHTML = count;
+    updateCount();
 });
 
-const number = document.querySelector('h1');
-const plusButton = document.querySelector('button2');
-
-plusButton.addEventListener('click',function() {
+minusButton.addEventListener('click',function() {
     count --;
     number.innerHTML = count;
+    updateCount();
 });
