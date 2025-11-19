@@ -1,5 +1,5 @@
 // main.js
-const number = document.querySelector('h1');
+const number = document.querySelector('#count');
 const plusButton = document.querySelector('#plus');
 const minusButton = document.querySelector('#minus');
 
@@ -14,5 +14,9 @@ plusButton.addEventListener('click',function() {
 minusButton.addEventListener('click',function() {
     count --;
     number.innerHTML = count;
-    updateCount();
+        updateCount();
 });
+
+function updateCount() {
+    nubber
+}
