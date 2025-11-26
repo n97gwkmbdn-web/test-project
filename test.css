@@ -1,7 +1,28 @@
 .count {
+    position:absolute;
+    left:300px;
+    top:100px;
     color:blue;
 }
 
 #plus {
+    position:absolute;
+    font-size: 50px;
+    width:150px;
+    height:150px;
+
+    left: 150px;
+    top: 200px;
     color:red;
+}
+
+#minus {
+    position:absolute;
+    font-size: 20px;
+
+    width: 150px;
+    height: 150px;
+
+    left:400px;
+    top:200px;
 }
